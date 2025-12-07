@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автобусный парк ВолBus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1" id="1">
+        <header>
+            <a href="index.html"> <img src="./image/logo.png"></a>
+            <h3>Вол</h3><p>bus</p>
+            <div class="menu">
+            <a href="./onas.html">О нас</a>
+            <a href="index.html#2">Купить билеты</a>
+            <a href="./park.html">Наш автопарк</a>
+            </div>
+        </header>
+        <img class="backgroundimage" src="./image/backgroundimage.jpg">
+        <div class="magic">
+            <a href="index.html#2"><div class="magicbtn">Узнать подробнее</div></a>
+            <div class="banner">
+                <p class="name3">Автотранспортные перевозки</p>
+                <p class="text3">По Вологодской области</p>
+            </div>
+            <div class="buy">
+                 <div class="home-search-container">
+            <form class="vertical-search-form" id="homeSearchForm">
+                <h2 class="form-heading"></h2>
+                
+                <div class="search-input-row">
+                    <label class="input-label" for="departureCity">
+                    </label>
+                    <select class="dropdown-select" id="departureCity" required>
+                        <option value="" disabled selected>Выберите город отправления</option>
+                        <option value="Вологда">Вологда</option>
+                        <option value="Череповец">Череповец</option>
+                        <option value="Вытегра">Вытегра</option>
+                        <option value="Великий Устюг">Великий Устюг</option>
+                        <option value="Кириллов">Кириллов</option>
+                        <option value="Белозерск">Белозерск</option>
+                        <option value="Харовск">Харовск</option>
+                        <option value="Устюжна">Устюжна</option>
+                        <option value="Бабаево">Бабаево</option>
+                        <option value="Грязовец">Грязовец</option>
+                        <option value="Кадников">Кадников</option>
+                        <option value="Красавино">Красавино</option>
+                        <option value="Никольск">Никольск</option>
+                        <option value="Сокол">Сокол</option>
+                        <option value="Тотьма">Тотьма</option>
+                    </select>
+                </div>
+                
+                <div class="search-input-row">
+                    <label class="input-label" for="destinationCity">
+                    </label>
+                    <select class="dropdown-select" id="destinationCity" required>
+                        <option value="" disabled selected>Выберите город назначения</option>
+                        <option value="Вологда">Вологда</option>
+                        <option value="Череповец">Череповец</option>
+                        <option value="Вытегра">Вытегра</option>
+                        <option value="Великий Устюг">Великий Устюг</option>
+                        <option value="Кириллов">Кириллов</option>
+                        <option value="Белозерск">Белозерск</option>
+                        <option value="Харовск">Харовск</option>
+                        <option value="Устюжна">Устюжна</option>
+                        <option value="Бабаево">Бабаево</option>
+                        <option value="Грязовец">Грязовец</option>
+                        <option value="Кадников">Кадников</option>
+                        <option value="Красавино">Красавино</option>
+                        <option value="Никольск">Никольск</option>
+                        <option value="Сокол">Сокол</option>
+                        <option value="Тотьма">Тотьма</option>
+                    </select>
+                </div>
+                
+                <div class="search-input-row1">
+                    <label class="input-label" for="travelDate">
+                    </label>
+                    <input type="date" class="date-picker" id="travelDate" required>
+                </div>
+                
+                <div class="search-input-row">
+                    <label class="input-label" for="passengerCount">
+                    </label>
+                    <select class="dropdown-select" id="passengerCount">
+                        <option value="1" selected>1 пассажир</option>
+                        <option value="2">2 пассажира</option>
+                        <option value="3">3 пассажира</option>
+                        <option value="4">4 пассажира</option>
+                        <option value="5">5 пассажиров</option>
+                        <option value="6">6 пассажиров</option>
+                        <option value="7">7 пассажиров</option>
+                        <option value="8">8 пассажиров</option>
+                        <option value="9">9 пассажиров</option>
+                        <option value="10">10 пассажиров</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="search-button">НАЙТИ АВТОБУСЫ</button>
+            </form>
+        </div>
+        
+        <div class="response-message" id="searchResult"></div>
+            </div>
+        </div>
+        <div class="infor">
+            <div class="harakteristika">
+                <div class="flex"><img src="./image/Image (17).png" class="info"><div class="cherta"></div></div>
+                <div class="negrid"><p class="text">Автобусов</p><p class="number">129</p></div>
+            </div>
+            <div class="harakteristika">
+                <div class="flex"><img src="./image/Image (20).png" class="info"><div class="cherta"></div></div>
+                <div class="negrid"><p class="text">Маршрутов</p><p class="number">37</p></div>
+            </div>
+            <div class="harakteristika" id="2">
+                <div class="flex"><img src="./image/Image (21).png" class="info"><div class="cherta"></div></div>
+                <div class="negrid"><p class="text">Городов</p><p class="number">15</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="container2" id="3">
+        <h3>Купить билет</h3>
+          <div class="main-container">
+            <img src="./image/bus.png">
+        <div class="form-container">
+            <div class="unified-form-field">
+                <div class="field-group">
+                    <label for="from">
+                        <span class="icon">⇵</span> ОТКУДА
+                    </label>
+                    <select id="from">
+                        <option value="" disabled selected>Выберите город</option>
+                        <option value="Вологда">Вологда</option>
+                        <option value="Череповец">Череповец</option>
+                        <option value="Вытегра">Вытегра</option>
+                        <option value="Великий Устюг">Великий Устюг</option>
+                        <option value="Кириллов">Кириллов</option>
+                        <option value="Белозерск">Белозерск</option>
+                        <option value="Харовск">Харовск</option>
+                        <option value="Устюжна">Устюжна</option>
+                        <option value="Бабаево">Бабаево</option>
+                        <option value="Грязовец">Грязовец</option>
+                        <option value="Кадников">Кадников</option>
+                        <option value="Красавино">Красавино</option>
+                        <option value="Никольск">Никольск</option>
+                        <option value="Сокол">Сокол</option>
+                        <option value="Тотьма">Тотьма</option>
+                    </select>
+                </div>
+                
+                <div class="field-group">
+                    <label for="to">
+                        <span class="icon">⇵</span> КУДА
+                    </label>
+                    <select id="to">
+                        <option value="" disabled selected>Выберите город</option>
+                        <option value="Вологда">Вологда</option>
+                        <option value="Череповец">Череповец</option>
+                        <option value="Вытегра">Вытегра</option>
+                        <option value="Великий Устюг">Великий Устюг</option>
+                        <option value="Кириллов">Кириллов</option>
+                        <option value="Белозерск">Белозерск</option>
+                        <option value="Харовск">Харовск</option>
+                        <option value="Устюжна">Устюжна</option>
+                        <option value="Бабаево">Бабаево</option>
+                        <option value="Грязовец">Грязовец</option>
+                        <option value="Кадников">Кадников</option>
+                        <option value="Красавино">Красавино</option>
+                        <option value="Никольск">Никольск</option>
+                        <option value="Сокол">Сокол</option>
+                        <option value="Тотьма">Тотьма</option>
+                    </select>
+                </div>
+                
+                <div class="field-group">
+                    <label for="date">
+                        <span class="icon">📅</span> КОГДА
+                    </label>
+                    <input type="date" id="date">
+                </div>
+                
+                <div class="field-group">
+                    <label for="passengers">
+                        <span class="icon">👤</span> КТО ЕДЕТ
+                    </label>
+                    <select id="passengers">
+                        <option value="1" selected>1 пассажир</option>
+                        <option value="2">2 пассажира</option>
+                        <option value="3">3 пассажира</option>
+                        <option value="4">4 пассажира</option>
+                        <option value="5">5 пассажиров</option>
+                        <option value="6">6 пассажиров</option>
+                        <option value="7">7 пассажиров</option>
+                        <option value="8">8 пассажиров</option>
+                        <option value="9">9 пассажиров</option>
+                        <option value="10">10 пассажиров</option>
+                    </select>
+                </div>
+                
+                <button id="search-btn">НАЙТИ АВТОБУСЫ</button>
+            </div>
+        </div>
+        
+        <div class="result-message" id="result-message"></div>
+    </div>
+            <!-- Блок расписания -->
+        <div class="schedule-container">
+            <h2 class="schedule-title">Расписание автобусов</h2>
+            
+            <!-- Первые 10 маршрутов (видимые изначально) -->
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Вологда</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Череповец</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">08:00 - 10:30</div>
+                        <div class="route-duration">2ч 30мин</div>
+                    </div>
+                </div>
+                <div class="route-price">850 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Череповец</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Вологда</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">11:15 - 13:45</div>
+                        <div class="route-duration">2ч 30мин</div>
+                    </div>
+                </div>
+                <div class="route-price">850 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Великий Устюг</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Вологда</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">07:30 - 12:15</div>
+                        <div class="route-duration">4ч 45мин</div>
+                    </div>
+                </div>
+                <div class="route-price">1,250 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Вологда</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Сокол</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">09:45 - 11:00</div>
+                        <div class="route-duration">1ч 15мин</div>
+                    </div>
+                </div>
+                <div class="route-price">450 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Кириллов</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Белозерск</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">14:20 - 15:40</div>
+                        <div class="route-duration">1ч 20мин</div>
+                    </div>
+                </div>
+                <div class="route-price">520 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Тотьма</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Вологда</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">06:15 - 10:00</div>
+                        <div class="route-duration">3ч 45мин</div>
+                    </div>
+                </div>
+                <div class="route-price">980 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Вологда</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Вытегра</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">12:30 - 16:15</div>
+                        <div class="route-duration">3ч 45мин</div>
+                    </div>
+                </div>
+                <div class="route-price">1,100 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Грязовец</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Череповец</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">10:10 - 12:30</div>
+                        <div class="route-duration">2ч 20мин</div>
+                    </div>
+                </div>
+                <div class="route-price">760 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Никольск</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Великий Устюг</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">08:45 - 10:30</div>
+                        <div class="route-duration">1ч 45мин</div>
+                    </div>
+                </div>
+                <div class="route-price">620 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Бабаево</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Вологда</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">13:15 - 16:45</div>
+                        <div class="route-duration">3ч 30мин</div>
+                    </div>
+                </div>
+                <div class="route-price">920 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <!-- Следующие 5 маршрутов (скрытые изначально) -->
+            <div class="route-card hidden-route">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Харовск</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Сокол</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">15:30 - 16:45</div>
+                        <div class="route-duration">1ч 15мин</div>
+                    </div>
+                </div>
+                <div class="route-price">480 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card hidden-route">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Устюжна</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Череповец</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">09:20 - 11:10</div>
+                        <div class="route-duration">1ч 50мин</div>
+                    </div>
+                </div>
+                <div class="route-price">590 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card hidden-route">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Кадников</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Вологда</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">17:00 - 17:45</div>
+                        <div class="route-duration">45 мин</div>
+                    </div>
+                </div>
+                <div class="route-price">320 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card hidden-route">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Красавино</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Великий Устюг</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">14:50 - 15:25</div>
+                        <div class="route-duration">35 мин</div>
+                    </div>
+                </div>
+                <div class="route-price">280 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="route-card hidden-route">
+                <div class="route-info">
+                    <div class="route-cities">
+                        <span class="city">Вологда</span>
+                        <span class="arrow">→</span>
+                        <span class="city">Тотьма</span>
+                    </div>
+                    <div class="route-details">
+                        <div class="route-time">18:30 - 22:15</div>
+                        <div class="route-duration">3ч 45мин</div>
+                    </div>
+                </div>
+                <div class="route-price">980 ₽</div>
+                <button class="book-button">Забронировать</button>
+            </div>
+            
+            <div class="show-more-container">
+                <button class="show-more-btn" id="show-more-btn">Показать еще 5 маршрутов</button>
+            </div>
+        </div>
+    </div>
+    <div class="container3">
+        <h3 class="zagolovok" id="#4">Идеи для поездок</h3>
+        <div class="card">
+            <img src="./image/velikiiustug.webp">
+            <div class="text1">
+                <h3>Родина Деда Мороза</h3>
+                <p>В Великий Устюг к избе великого</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./image/gora-malgora.jpg">
+            <div class="text1">
+                <h3>Гора Мальгора</h3>
+                <p>Самая высокая точка Вологодской области находится в Вытегорском районе</p>
+            </div>
+        </div>
+        <div class="card-center">
+            <img src="./image/vaskin-klyuch.jpg">
+            <div class="text1">
+                <h3>Васькин ключ</h3>
+                <p>Водопад в Великоустюгском районе известен уже более 300 лет.</p>
+            </div>
+        </div>
+        <div class="nocenter">
+            <div class="card-nocenter">
+                <img src="./image/mys-byk.jpg">
+                <div class="text1">
+                    <h3>Мыс Бык</h3>
+                    <p>Берега Сухоны — места удивительной красоты.</p>
+                </div>
+            </div>
+            <div class="card-nocenter">
+                <img src="./image/park-russkiy-sever.jpg">
+                <div class="text1">
+                    <h3>Парк Русский север</h3>
+                    <p>Редкие представители флоры и фауны</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container4">
+        <h3 class="zagolovok">Контакты</h3>
+        <div class="contact">
+            <p class="name1">По вопросам писать:</p>
+            <p class="text2">pochta@quest.ru</p>
+        </div>
+        <div class="contact">
+            <p class="name1">Техническая поддержка:</p>
+            <p class="text2">pochta@help.ru</p>
+        </div>
+        <div class="contact">
+            <p class="name1">Администрация:</p>
+            <p class="text2">+7(900)500-70-71</p>
+        </div>
+    </div>
+    <div class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af725019a00b538b62596b15e3990757a860e07ae32e946c56016105b029cf315&amp;width=876&amp;height=654&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <img src="./image/bus.png" class="bus">
+    <footer>
+        <div><span class="te">©Вол</span><span class="xt">bus</span></div>
+        <div>
+            <a href="index.html#1" class="navigator">Вернуться на главную страницу</a><br>
+            <a href="index.html#2" class="navigator">Купить билет</a><br>
+            <a href="index.html#3" class="navigator">Расписание автобусов</a>
+        </div>
+        <div class="information">
+            <div class="info1">
+                <span>pochta@quest.ru</span>
+                <span>+7(900)500-70-71</span>
+            </div>
+            <div class="photo">
+                <a href="https://vk.com/" target="_blank"><img src="./image/vk.png"></a>
+                <a href="https://web.telegram.org/" target="_blank"><img src="./image/tg.png"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="./image/whatsapp.png"></a>
+                <img src="./image/autobus.png">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>

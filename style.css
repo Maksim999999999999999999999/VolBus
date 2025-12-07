@@ -1,0 +1,1682 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(./fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(./fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+.backgroundimage{
+    margin: 0; 
+    width: 1920px;
+}
+.magic {
+    z-index: 1;
+    margin: -995px 0;
+    position: absolute;
+    width: 1920px;
+    height: 991px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 1s;
+    display: none;
+}
+.backgroundimage:hover ~ .magic {
+    display: block;
+    transition: 0.2s;
+}
+.magic:hover {
+    display: block;
+}
+.magic:hover .name3{
+    transform: translateY(10px);
+}
+.magic:hover .text3 {
+    transform: translateY(-30px);
+}
+.magic a {
+    text-decoration: none;
+}
+.name3 {
+    font-family: Montserrat-Regular;
+    font-size: 64px;
+    color: white;
+    margin: 35px 0;
+    transition: 1s;
+}
+.text3 {
+    margin: 30px 0 0 0;
+    font-family: Montserrat-Regular;
+    font-size: 55px;
+    color: white;
+    transition: 2s;
+}
+.banner {
+    margin: -900px 110px;
+}
+.buy {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    background-color: rgba(0, 102, 176, 0.9);
+    margin: 730px 1250px;
+    font-family: Montserrat-Regular;
+}
+.magic:hover .buy {
+    transition: 1s;
+    transform: translateX(-50px);
+}
+.magicbtn {
+    transition: 0.2s;
+    margin: 614px 110px;
+    width: 407px;
+    height: 37px;
+    border: 5px solid white;
+    border-radius: 10px;
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.magicbtn:hover {
+    background-color: #0066B0;
+    transition: 0.2s;
+    
+}
+header {
+    display: flex;
+    width: 1920px;
+    height: 133px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    z-index: 99;
+}
+header img {
+    width: 106px;
+    height: 106px;
+    border-radius: 64.5px;
+    margin: 8px 0 0 42px;
+}
+h3 {
+    margin: 39px 0 0 35px;
+    font-size: 36px;
+    font-family: Montserrat-Regular;
+}
+header p {
+    margin-top: 39px;
+    font-size: 36px;
+    color: #0066B0;
+    font-family: Montserrat-Bold;
+
+}
+.menu {
+    display: flex;
+    margin: 44px 0 0 818px;
+    gap: 61px;
+}
+.menu a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat-Regular;
+}
+.menu a:hover {
+    font-family: Montserrat-Bold;
+}
+.info {
+    width: 154px;
+}
+.info:nth-child(1) {
+    transform: scaleX(-1);
+}
+.infor {
+    margin: 10px 0 0 185px;
+    display: flex;
+}
+.cherta {
+    width: 2px;
+    height: 50px;
+    background-color: #4A4A4A;
+    transform: skew(-30deg);
+    margin: 50px 20px;
+}
+.flex {
+    display: flex;
+}
+.negrid {
+    margin: 30px 20px;
+}
+.number {
+    font-family: Montserrat-Regular;
+    font-size: 32px;
+    margin: 0;
+    color: #0066B0;
+}
+.text {
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #4A4A4A;
+}
+.harakteristika {
+    display: flex;
+}
+.harakteristika:nth-child(2) {
+    margin-left: 280px;
+}
+.harakteristika:nth-child(3) {
+    margin-left: 280px;
+}
+.container2 h3 {
+    margin: 80px 220px;
+}
+.main-container img:nth-child(1) {
+    position: absolute;
+    margin: -43px 1150px;
+    width: 150px;
+}
+.opisanie3 {
+    padding: 250px 150px;
+    width: 888px;
+}
+.opisanie3 h1 {
+    font-family: Montserrat-Regular;
+    font-size: 48px;
+}
+.opisanie3 p {
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    margin: 50px 35px;
+}
+.squares {
+    margin: -610px 1230px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    width: 800px;
+    height: 800px;
+    gap: 20px;
+}
+.square {
+    color: black;
+    width: 200px;
+    height: 200px;
+    border: 3px solid rgb(136, 124, 124);
+}
+.square:hover {
+    color: white;
+    background-color: #0066B0;
+    border: none;
+
+}
+.square h4 {
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-family: Montserrat-Regular;
+    font-size: 64px;
+}
+.square p {
+    margin: 0;
+    text-align: center;
+    font-family: Montserrat-Regular;
+    font-size: 20px;   
+}
+.banner3 {
+    height: 274px;
+    width: 1920px;
+    margin: 400px 0 -300px 0;
+    background-color: #0066B0;
+    text-align: center;
+    color: white;
+    font-family: Montserrat-Regular;
+    padding: 30px 0;
+}
+.banner3 h5 {
+    margin: 30px 0;
+    font-size: 20px;
+    font-family: Montserrat-Light;
+}
+.banner3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.knopka3 {
+    font-family: Montserrat-Bold;
+    font-size: 22px;
+    background: linear-gradient(to right, #FF9900, #ffad33);
+    border-radius: 10px;
+    width: 450px;
+    height: 30px;
+    display: inline-block;
+    padding: 13px;
+    color: white;
+    transition: all 0.3s;
+}
+.knopka3:hover {
+    background: linear-gradient(to right, #e68a00, #ff9900);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 153, 0, 0.3);
+}
+        .main-container {
+            margin: 70px 220px;
+            font-family: Montserrat-Regular;
+        }
+        
+        .main-container img:nth-child(1) {
+            position: absolute;
+            margin: -43px 1150px;
+            width: 150px;
+        }
+        
+        .form-container {
+            width: 1500px;
+            height: 130px;
+            background-color: #0066B0;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 25px rgba(0, 102, 176, 0.3);
+        }
+        
+        .unified-form-field {
+            display: flex;
+            width: 98%;
+            height: 95px;
+            background-color: white;
+            border-radius: 30px;
+            overflow: hidden;
+            align-items: center;
+            padding: 0 5px;
+        }
+        
+        .field-group {
+            flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px;
+            position: relative;
+        }
+        
+        .field-group:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 15%;
+            height: 70%;
+            width: 1px;
+            background-color: #e0e0e0;
+        }
+        
+        label {
+            color: #666;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+        
+        select, input {
+            height: 30px;
+            border: none;
+            padding: 0 5px;
+            font-size: 16px;
+            outline: none;
+            background-color: transparent;
+            color: #333;
+            width: 100%;
+        }
+        
+        input[type="date"] {
+            cursor: pointer;
+        }
+        
+        select {
+            cursor: pointer;
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%230066B0" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 5px center;
+            background-size: 16px;
+        }
+        
+        button {
+            background-color: #FF9900;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            height: 60px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 0 30px;
+            transition: background-color 0.3s;
+            margin: 0 10px;
+        }
+        
+        button:hover {
+            background-color: #e68a00;
+        }
+        
+        .result-message {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border: 15px solid #1db000;
+            border-radius: 30px;
+            box-shadow: 0 5px 25px #1db000;
+            max-width: 1442px;
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+            display: none;
+        }
+        
+        .result-message.show {
+            display: block;
+        }
+        
+        .icon {
+            margin-right: 8px;
+            color: #0066B0;
+        }
+        
+        /* Стили для расписания */
+        .schedule-container {
+            margin: 50px 225px;
+            max-width: 1500px;
+        }
+        
+        .schedule-title {
+            font-size: 28px;
+            color: #0066B0;
+            margin-bottom: 30px;
+            text-align: center;
+            font-family: Montserrat-Regular;
+        }
+        
+        .route-card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .route-info {
+            display: flex;
+            align-items: center;
+            flex: 2;
+        }
+        
+        .route-cities {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+        }
+        
+        .city {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .arrow {
+            margin: 0 20px;
+            color: #FF9900;
+            font-size: 20px;
+        }
+        
+        .route-details {
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+        }
+        
+        .route-time {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .route-duration {
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .route-price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #FF9900;
+            flex: 0.5;
+            text-align: center;
+        }
+        
+        .book-button {
+            background-color: #0066B0;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            flex: 0.5;
+        }
+        
+        .book-button:hover {
+            background-color: #005090;
+        }
+        
+        .show-more-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .show-more-btn {
+            background-color: #0066B0;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 12px 40px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .show-more-btn:hover {
+            background-color: #005090;
+        }
+        
+        .hidden-route {
+            display: none;
+        }
+        .container3 {
+            margin: 30px 0;
+        }
+        .card {
+            width: 451px;
+            height: 285px;
+            margin: 100px 220px;
+            transition: 0.2s;
+            background-color: rgba(0, 102, 176, 0.5);
+            border-radius: 50px;
+            box-shadow: -10px 10px 100px 1px rgba(0, 0, 0, 0.5);
+        }
+        .card:hover {
+            transition: 0.2s;
+            box-shadow: -10px 10px 100px 1px rgba(0, 102, 176, 0.5);
+        }
+        .card-center:hover {
+            transition: 0.2s;
+            box-shadow: 0px 10px 100px 1px rgba(0, 102, 176, 0.5);
+        }
+        .card-nocenter:hover {
+            transition: 0.2s;
+            box-shadow: 10px 10px 100px 1px rgba(0, 102, 176, 0.5);
+        }
+        .card img {
+            margin: 100px 0;
+            width: 451px;
+            border-radius: 50px;
+        }
+        .text1 {
+            margin: -475px 0;
+        }
+        .text1 h3 {
+            font-family: Montserrat-Medium;
+            font-size: 24px;
+        }
+        .text1 p {
+            margin: 7px 38px;
+            font-family: Montserrat-Regular;
+            font-size: 16px;
+        }
+        .zagolovok {
+            margin: 150px 0  0 220px;
+        }
+
+        .card-center {
+            width: 451px;
+            height: 285px;
+            margin: -790px 720px;
+            background-color: rgba(0, 102, 176, 0.5);
+            border-radius: 50px;
+            box-shadow: 0px 10px 100px 1px rgba(0, 0, 0, 0.5);
+        }
+        .card-center img {
+            margin: 100px 0;
+            width: 451px;
+            border-radius: 50px;
+        }
+        .card-center .text1 {
+            margin: -845px 0;
+        }
+        .nocenter {
+            margin: 525px 0;
+        }
+        .card-nocenter {
+            width: 451px;
+            height: 285px;
+            margin: 100px 1220px;
+            background-color: rgba(0, 102, 176, 0.5);
+            border-radius: 50px;
+            box-shadow: 10px 10px 100px 1px rgba(0, 0, 0, 0.5);
+        }
+        .card-nocenter img {
+            margin: 100px 0;
+            width: 451px;
+            border-radius: 50px;
+        }
+        .container4 h3{
+            margin: -300px 0 100px 260px;
+            }
+        .contact {
+            margin: 27px 260px;
+        }
+        .name1 {
+            font-family: Montserrat-Regular;
+            font-size: 26px;
+        }
+        .text2 {
+            font-family: Montserrat-Medium;
+            font-size: 24px;
+        }
+        .map {
+            margin: -400px 850px;
+        }
+        footer {
+            background-color: black;
+            width: 1920px;
+            height: 268px;
+            margin-top: 500px;
+        }
+        footer div:nth-child(1) {
+            padding: 30px 860px;
+        }
+        footer div:nth-child(2) {
+            padding: 0 260px;
+            line-height: 35px;
+        }
+        .te {
+            font-family: Montserrat-Regular;
+            font-size: 24px;
+            color: white;
+        }
+        .xt {
+            font-family: Montserrat-Bold;
+            font-size: 24px;
+            color: #0066B0;
+        }
+        .navigator {
+            font-family: Montserrat-Light;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .navigator:hover {
+            font-family: Montserrat-Regular;
+        }
+        .photo {
+            width: 500px;
+            margin: 0px 1070px;
+        }
+        .photo img:nth-child(4) {
+            margin-left: 40px;
+            width: 100px;
+            transform: scale(-1, 1);
+        }
+        .info1 {
+            font-family: Montserrat-Regular;
+            font-size: 20px;
+            color: white;
+            width: 500px;
+            margin: -130px 0 0 460px;
+        }
+        .info1 span {
+            margin-left: 10px;
+        }
+        .bus {
+            position: absolute;
+            width: 191px;
+            margin: 445px 1650px;
+            transition: 5s;
+        }
+        .bus:hover {
+            margin: 445px 350px;
+            transition: cubic-bezier(4.5, 3.2, 2.165, 1);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media (max-width: 1550px) {
+            .form-container {
+                width: 95%;
+            }
+            
+            .result-message, .schedule-container {
+                width: 95%;
+            }
+            
+            .main-container {
+                margin: 70px 50px;
+            }
+            
+            .main-container img:nth-child(1) {
+                margin: -43px 1100px;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .unified-form-field {
+                flex-wrap: wrap;
+                height: auto;
+                padding: 15px;
+                border-radius: 25px;
+            }
+            
+            .field-group {
+                width: 50%;
+                margin-bottom: 15px;
+            }
+            
+            .field-group:nth-child(2n)::after {
+                display: none;
+            }
+            
+            button {
+                margin: 10px auto 0;
+                width: 50%;
+            }
+            
+            .form-container {
+                height: auto;
+                padding: 20px;
+            }
+            
+            .route-card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .route-info {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 15px;
+                width: 100%;
+            }
+            
+            .route-cities, .route-details {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+            
+            .route-price, .book-button {
+                align-self: flex-end;
+                margin-top: 10px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .field-group {
+                width: 100%;
+            }
+            
+            .field-group::after {
+                display: none;
+            }
+            
+            button {
+                width: 80%;
+            }
+            
+            .main-container img:nth-child(1) {
+                display: none;
+            }
+        }
+
+
+
+
+
+
+
+
+
+        .home-search-container {
+            width: 500px;
+            height: 300px;
+            background-color: rgba(0, 102, 176, 0.9);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 15px 35px rgba(0, 102, 176, 0.25);
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .home-search-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background-color: rgba(0, 102, 176, 0.9);
+        }
+        
+        .vertical-search-form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 102, 176, 0.9);
+            border-radius: 15px;
+            margin: -50px 0 0 0;
+            justify-content: space-between;
+        }
+        
+        .search-input-row {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 12px;
+        }
+        
+        .search-input-row:last-of-type {
+            margin-bottom: 0;
+        }
+        .search-input-row1 {
+            display: flex;
+            flex-direction: column;
+            width: 93%;
+            margin-bottom: 12px;
+        }
+        .input-label {
+            color: #666;
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .dropdown-select {
+            height: 40px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 0 15px;
+            font-size: 14px;
+            outline: none;
+            background-color: white;
+            color: #333;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.3s;
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%230066B0" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+        }
+        
+        .date-picker {
+            height: 40px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 0 15px;
+            font-size: 14px;
+            outline: none;
+            background-color: white;
+            color: #333;
+            width: 100%;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .dropdown-select:hover, 
+        .dropdown-select:focus,
+        .date-picker:hover,
+        .date-picker:focus {
+            border-color: #0066B0;
+        }
+        
+        .search-button {
+            background: linear-gradient(to right, #FF9900, #ffad33);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 0;
+            height: 45px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            box-shadow: 0 4px 8px rgba(255, 153, 0, 0.2);
+            margin: 15px 30px 0 0;
+        }
+        
+        .search-button:hover {
+            background: linear-gradient(to right, #e68a00, #ff9900);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(255, 153, 0, 0.3);
+        }
+        
+        .search-button:active {
+            transform: translateY(0);
+        }
+        
+        .response-message {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+            display: none;
+        }
+        
+        .response-message.show {
+            display: block;
+            animation: messageAppear 0.5s;
+        }
+        
+        .field-icon {
+            margin-right: 6px;
+            color: #0066B0;
+            font-size: 14px;
+        }
+        
+        .form-heading {
+            text-align: center;
+            color: #0066B0;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        @keyframes messageAppear {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .transport-icon {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            color: rgba(255, 255, 255, 0.1);
+            font-size: 60px;
+        }
+        
+        /* Адаптив для маленьких экранов */
+        @media (max-width: 550px) {
+            .home-search-container {
+                width: 95%;
+                height: auto;
+                min-height: 300px;
+            }
+            
+            .response-message {
+                width: 95%;
+            }
+        }
+        
+        /* Улучшенный фокус для доступности */
+        .dropdown-select:focus,
+        .date-picker:focus,
+        .search-button:focus {
+            outline: 2px solid #0066B0;
+            outline-offset: 2px;
+        }
+        
+        /* Стили для disabled option */
+        .dropdown-select option:disabled {
+            color: #999;
+            background-color: #f5f5f5;
+        }
+
+        
+        /* Специальные эффекты в стилистике проекта */
+        .accent-button {
+            background: linear-gradient(to right, #FF9900, #ffad33);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 8px rgba(255, 153, 0, 0.2);
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        
+        .accent-button:hover {
+            background: linear-gradient(to right, #e68a00, #ff9900);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(255, 153, 0, 0.3);
+        }
+        
+        .highlight-text {
+            color: #FF9900;
+            font-weight: 700;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #0066B0, #FF9900);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+
+
+
+
+
+
+
+
+                /* Основной контейнер */
+        .page-wrapper {
+            width: 100%;
+        }
+
+        /* Навигационная панель */
+        .navigation-panel {
+            width: 100%;
+            height: 133px;
+            background-color: rgba(255, 255, 255, 0.95);
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-wrapper img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+
+        .logo-text-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-text-container h3 {
+            font-size: 28px;
+            font-family: 'Montserrat-Regular';
+            margin: 0;
+        }
+
+        .logo-text-container p {
+            font-size: 28px;
+            font-family: 'Montserrat-Bold';
+            color: #0066B0;
+            margin: 0;
+        }
+
+        .navigation-links {
+            display: flex;
+            gap: 40px;
+        }
+
+        .navigation-link {
+            font-size: 18px;
+            text-decoration: none;
+            color: #333;
+            font-family: 'Montserrat-Medium';
+            transition: color 0.3s;
+            padding: 8px 0;
+            position: relative;
+        }
+
+        .navigation-link:hover {
+            color: #0066B0;
+        }
+
+        .navigation-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #0066B0;
+            transition: width 0.3s;
+        }
+
+        .navigation-link:hover::after {
+            width: 100%;
+        }
+
+        .link-active {
+            color: #0066B0 !important;
+            font-family: 'Montserrat-Bold' !important;
+        }
+
+        .link-active::after {
+            width: 100% !important;
+        }
+
+        /* Основной контент */
+        .main-content-area {
+            font-family: 'Montserrat-Light';
+            padding-top: 133px;
+            width: 100%;
+        }
+
+        /* Верхний баннер */
+        .top-banner {
+            background: linear-gradient(rgba(0, 102, 176, 0.9), rgba(0, 102, 176, 0.8)), url('./image/bus-park.jpg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .banner-content {
+            max-width: 800px;
+        }
+
+        .banner-title {
+            font-size: 48px;
+            font-family: 'Montserrat-Bold';
+            margin-bottom: 20px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .banner-description {
+            font-size: 20px;
+            font-family: 'Montserrat-Regular';
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        /* Информация о парке */
+        .park-info-section {
+            padding: 80px 50px;
+            background-color: white;
+        }
+
+        .section-header {
+            text-align: center;
+            font-size: 36px;
+            font-family: 'Montserrat-Bold';
+            color: #0066B0;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .section-header::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background-color: #FF9900;
+            border-radius: 2px;
+        }
+
+        .park-description {
+            max-width: 1000px;
+            margin: 0 auto 60px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .statistics-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .stat-card-item {
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 5px solid #0066B0;
+        }
+
+        .stat-card-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-value {
+            font-size: 42px;
+            font-family: 'Montserrat-Bold';
+            color: #0066B0;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Галерея транспорта */
+        .transport-gallery {
+            padding: 80px 50px;
+            background-color: #f8f9fa;
+        }
+
+        .gallery-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 40px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .transport-card {
+            background-color: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .transport-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .transport-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 5px solid #FF9900;
+        }
+
+        .transport-details {
+            padding: 25px;
+        }
+
+        .transport-model {
+            font-size: 22px;
+            font-family: 'Montserrat-Bold';
+            color: #0066B0;
+            margin-bottom: 10px;
+        }
+
+        .transport-year {
+            display: inline-block;
+            background-color: #0066B0;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .specifications-list {
+            margin-bottom: 20px;
+        }
+
+        .specification-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .specification-name {
+            color: #666;
+            font-size: 15px;
+        }
+
+        .specification-value {
+            color: #333;
+            font-family: 'Montserrat-Medium';
+            font-size: 15px;
+        }
+
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .feature-badge {
+            background-color: #e6f2ff;
+            color: #0066B0;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 13px;
+            font-family: 'Montserrat-Medium';
+        }
+
+        .status-price-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .status-indicator-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-indicator-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #28a745;
+        }
+
+        .status-text {
+            color: #28a745;
+            font-size: 14px;
+            font-family: 'Montserrat-Medium';
+        }
+
+        .price-tag {
+            font-size: 20px;
+            font-family: 'Montserrat-Bold';
+            color: #FF9900;
+        }
+
+        /* Преимущества парка */
+    
+        /* Техническое обслуживание */
+        .maintenance-section {
+            margin-bottom: -400px;
+            padding: 80px 50px;
+            background-color: #0066B0;
+            color: white;
+            text-align: center;
+        }
+
+        .maintenance-title {
+            font-size: 32px;
+            font-family: 'Montserrat-Bold';
+            margin-bottom: 20px;
+        }
+
+        .maintenance-text {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            font-size: 18px;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .maintenance-stats-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .maintenance-stat-item {
+            text-align: center;
+        }
+
+        .maintenance-stat-value {
+            font-size: 36px;
+            font-family: 'Montserrat-Bold';
+            color: #FF9900;
+            margin-bottom: 10px;
+        }
+
+        .maintenance-stat-label {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Нижняя часть страницы */
+        .page-footer {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 60px 50px 30px;
+        }
+
+        .footer-content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .footer-logo-text-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-logo-text-container h3 {
+            font-size: 24px;
+            font-family: 'Montserrat-Regular';
+            margin: 0;
+        }
+
+        .footer-logo-text-container p {
+            font-size: 24px;
+            font-family: 'Montserrat-Bold';
+            color: #0066B0;
+            margin: 0;
+        }
+
+        .footer-description {
+            max-width: 300px;
+            color: #aaa;
+            line-height: 1.6;
+        }
+
+        .footer-navigation {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .footer-section-title {
+            font-size: 18px;
+            font-family: 'Montserrat-Bold';
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .footer-link {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-link:hover {
+            color: #FF9900;
+        }
+
+        .footer-contacts-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-icon {
+            color: #0066B0;
+            font-size: 18px;
+        }
+
+        .contact-details {
+            color: #aaa;
+        }
+
+        .social-media-container {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-media-link {
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .social-media-link:hover {
+            background-color: #0066B0;
+        }
+
+        .copyright-notice {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #333;
+            color: #777;
+            font-size: 14px;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 1024px) {
+            .gallery-layout {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 30px;
+            }
+            
+            .banner-title {
+                font-size: 40px;
+            }
+            
+            .section-header {
+                font-size: 32px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navigation-panel {
+                padding: 0 20px;
+                height: 100px;
+                flex-direction: column;
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            .main-content-area {
+                margin-top: 100px;
+            }
+            
+            .navigation-links {
+                gap: 20px;
+            }
+            
+            .top-banner {
+                height: 300px;
+            }
+            
+            .banner-title {
+                font-size: 32px;
+            }
+            
+            .banner-description {
+                font-size: 18px;
+            }
+            
+            .park-info-section, .transport-gallery, .advantages-section, .maintenance-section {
+                padding: 50px 20px;
+            }
+            
+            .section-header {
+                font-size: 28px;
+            }
+            
+            .gallery-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-content-wrapper {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-wrapper img {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .logo-text-container h3, .logo-text-container p {
+                font-size: 22px;
+            }
+            
+            .navigation-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            .navigation-link {
+                font-size: 16px;
+            }
+            
+            .banner-title {
+                font-size: 28px;
+            }
+            
+            .banner-description {
+                font-size: 16px;
+            }
+            
+            .section-header {
+                font-size: 24px;
+            }
+            
+            .park-description {
+                font-size: 16px;
+            }
+            
+            .stat-card-item {
+                width: 100%;
+                max-width: 200px;
+            }
+            
+            .page-footer {
+                padding: 40px 20px 20px;
+            }
+        }
+
+        /* Общие компоненты */
+        .highlighted-text {
+            color: #FF9900;
+            font-weight: bold;
+        }
+
+        .primary-button {
+            display: inline-block;
+            background: linear-gradient(to right, #FF9900, #ffad33);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-family: 'Montserrat-Bold';
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .primary-button:hover {
+            background: linear-gradient(to right, #e68a00, #ff9900);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 153, 0, 0.3);
+        }
+
+        .large-button {
+            padding: 18px 40px;
+            font-size: 18px;
+        }
+
+        .centered-content {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* Анимации */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animated-fade-in {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .animation-delay-1 { animation-delay: 0.2s; }
+        .animation-delay-2 { animation-delay: 0.4s; }
+        .animation-delay-3 { animation-delay: 0.6s; }
+    
+        
